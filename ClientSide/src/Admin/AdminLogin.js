@@ -54,7 +54,7 @@ function AdminLogin() {
         else{
           setLoder(true)
 
-           fetch("https://car-rental-app-server.onrender.com/admin/login" ,{
+           fetch("https://car-rental-7mti.onrender.com/" ,{
 
             method:"POST",
             headers:{
