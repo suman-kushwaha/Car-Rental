@@ -17,7 +17,7 @@ export default function EditCarDetails(){
         e.preventDefault();
        const EditformData = new FormData(e.target)
 
-      fetch(`https://car-rental-app-server.onrender.com/cars/${edit._id}` , {
+      fetch(`https://car-rental-7mti.onrender.com/cars/${edit._id}` , {
         method:"PUT",
         headers:{
             "authorization":JSON.parse(localStorage.getItem("token-admin")),

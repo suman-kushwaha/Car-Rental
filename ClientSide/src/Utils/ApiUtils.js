@@ -1,5 +1,5 @@
 
-const API_BASE_URL= 'https://car-rental-app-server.onrender.com';
+const API_BASE_URL= 'https://car-rental-7mti.onrender.com';
 
 
 function GetCars(){
